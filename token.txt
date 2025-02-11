@@ -1,0 +1,2 @@
+token1,wallet1
+token2,wallet2
