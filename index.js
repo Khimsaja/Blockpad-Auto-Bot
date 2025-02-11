@@ -140,7 +140,7 @@ async function sleep(seconds) {
 
 async function loadAccounts() {
     try {
-        const data = await fs.readFile('accounts.txt', 'utf8');
+        const data = await fs.readFile('token.txt', 'utf8');
         return data.split('\n')
             .map(line => line.trim())
             .filter(Boolean)
