@@ -25,8 +25,8 @@ npm install
 - `token.txt`: One account per line in format `token,label` (label is optional)
   Example:
   ```
-  abc123xyz....,wallet1
-  def456uvw....,wallet2
+  abc123xyz....,labelwallet1
+  def456uvw....,labelwallet2
   ```
 - `proxy.txt` (optional): One proxy per line
   Example:
