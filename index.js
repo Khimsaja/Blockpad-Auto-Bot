@@ -8,7 +8,7 @@ class BlockPadTask {
     constructor(token, label, proxy = null) {
         this.token = token;
         this.label = label;
-        this.baseURL = 'https://api2.blockpad.fun/api';
+        this.baseURL = 'https://api3.blockpad.fun/api';
         this.headers = {
             'Accept': 'application/json, text/plain, */*',
             'Accept-Language': 'en-US,en;q=0.5',
